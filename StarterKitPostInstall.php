@@ -18,15 +18,15 @@ class StarterKitPostInstall
         }
 
         if (PHP_OS_FAMILY === 'Darwin') {
-            exec('open https://github.com/Maikel-B/leap');
+            exec('open https://github.com/maikel-b/leap');
         }
 
         if (PHP_OS_FAMILY === 'Windows') {
-            exec('start https://github.com/Maikel-B/leap');
+            exec('start https://github.com/maikel-b/leap');
         }
 
         if (PHP_OS_FAMILY === 'Linux') {
-            exec('xdg-open https://github.com/Maikel-B/leap');
+            exec('xdg-open https://github.com/maikel-b/leap');
         }
 
         info('Thank you!');
